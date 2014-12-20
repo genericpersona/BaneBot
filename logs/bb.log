@@ -1,0 +1,768 @@
+2014-12-19 02:52:01-0500 [-] Log opened.
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: BTCE
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: Quotes
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: More
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: Math
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: Porn
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: Bitcoin
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: Commands
+2014-12-19 02:52:03-0500 [-] Loaded plugin object: URL
+2014-12-19 02:52:05-0500 [-] Loaded plugin object: CryptoCoinCharts
+2014-12-19 02:52:05-0500 [-] Loaded plugin object: About
+2014-12-19 02:52:05-0500 [-] Loaded plugin object: Lookup
+2014-12-19 02:52:05-0500 [-] Starting factory <BaneBot.BaneBot.BaneBotFactory instance at 0x7f0fe98ede60>
+2014-12-19 02:52:05-0500 [Uninitialized] Connection made to chat.freenode.net
+2014-12-19 02:52:06-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** Looking up your hostname...
+2014-12-19 02:52:06-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** Checking Ident
+2014-12-19 02:52:06-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** Couldn't look up your hostname
+2014-12-19 02:52:06-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** No Ident response
+2014-12-19 02:52:06-0500 [BaneBot (TLSMemoryBIOProtocol),client] [gilbertgrapesmom] <NickServ!NickServ@services.> This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-12-19 02:52:12-0500 [BaneBot (TLSMemoryBIOProtocol),client] Joined #bitcoin-genericpersona
+2014-12-19 02:52:12-0500 [BaneBot (TLSMemoryBIOProtocol),client] [gilbertgrapesmom] <NickServ!NickServ@services.> You are now identified for gilbertgrapesmom.
+2014-12-19 02:59:08-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?gg bbgw
+2014-12-19 03:00:15-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?help gg
+2014-12-19 03:00:20-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?help gw
+2014-12-19 03:00:24-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?gw bb
+2014-12-19 11:02:46-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <rithm!~rithm@unaffiliated/rithm> rebuttal: https://www.youtube.com/watch?v=GtK0Fg5wPI4
+2014-12-19 11:02:52-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: https://www.youtube.com/watch?v=GtK0Fg5wPI4
+2014-12-19 11:05:14-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <dignork!~dignork@gateway/tor-sasl/dignork> re: your RAP, i like this more: https://www.youtube.com/watch?v=8bdeizHM9OU
+2014-12-19 11:05:15-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: https://www.youtube.com/watch?v=8bdeizHM9OU
+2014-12-19 11:06:56-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <dignork!~dignork@gateway/tor-sasl/dignork> rithm: https://www.youtube.com/watch?v=IJrWlHRT-18
+2014-12-19 11:06:56-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: https://www.youtube.com/watch?v=IJrWlHRT-18
+2014-12-19 11:09:23-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <rithm!~rithm@unaffiliated/rithm> https://www.youtube.com/watch?v=o_8a1sG8Ooc
+2014-12-19 11:09:24-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: https://www.youtube.com/watch?v=o_8a1sG8Ooc
+2014-12-19 13:15:47-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?avg
+2014-12-19 13:25:02-0500 [BaneBot (TLSMemoryBIOProtocol),client] evaluating %q from %s 144.0000000000000000 / 317.3700000000000045 genericpersona
+2014-12-19 13:25:02-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?calc 144 / [avg]
+2014-12-19 13:25:52-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <pyroarchy!~adm1n@unaffiliated/pyroarchy> ?google joe dirt unicef clip
+2014-12-19 13:26:01-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?yt joe dirt unicef clip
+2014-12-19 13:26:31-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?google joe dirt
+2014-12-19 13:26:40-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?help google
+2014-12-19 13:26:50-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?google blow
+2014-12-19 14:07:38-0500 [BaneBot (TLSMemoryBIOProtocol),client] "Connection lost: <twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionLost'>>"
+2014-12-19 14:07:38-0500 [BaneBot (TLSMemoryBIOProtocol),client] "Connection lost: <twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionLost'>>"
+2014-12-19 14:07:38-0500 [Uninitialized] Connection made to chat.freenode.net
+2014-12-19 14:07:39-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** Looking up your hostname...
+2014-12-19 14:07:39-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** Checking Ident
+2014-12-19 14:07:39-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** No Ident response
+2014-12-19 14:07:39-0500 [BaneBot (TLSMemoryBIOProtocol),client] [*] <sendak.freenode.net> *** Couldn't look up your hostname
+2014-12-19 14:07:45-0500 [BaneBot (TLSMemoryBIOProtocol),client] Joined #bitcoin-genericpersona
+2014-12-19 14:08:43-0500 [BaneBot (TLSMemoryBIOProtocol),client] [gilbertgrapesmom] <NickServ!NickServ@services.> This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-12-19 14:08:43-0500 [BaneBot (TLSMemoryBIOProtocol),client] [gilbertgrapesmom] <NickServ!NickServ@services.> You are now identified for gilbertgrapesmom.
+2014-12-19 16:43:40-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: http://www.twitch.tv/armedgamer
+2014-12-19 22:53:16-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: https://torrentfreak.com/bittorrent-anonymous-and-impossible-to-shut-down-141218/
+2014-12-19 22:55:13-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: https://torrentfreak.com/paulo-coelho-wants-to-give-the-interview-away-using-bittorrent-141218/
+2014-12-19 23:10:31-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <joecool!~joecool@no-sources/joecool> ?nki
+2014-12-20 04:51:12-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> sup sexy people?!
+2014-12-20 04:51:15-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?avg
+2014-12-20 04:54:11-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> bigtip: how the fuck ya doing?!
+2014-12-20 05:16:23-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <Hasimir!~hfenring@unaffiliated/hasimir> the old stuff about supa and xisalty: http://www.adversary.org/wp/?page_id=7297
+2014-12-20 05:16:28-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: http://www.adversary.org/wp/?page_id=7297
+2014-12-20 12:31:22-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?avg
+2014-12-20 13:04:40-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> Hasimir: http://www.oedb.info/nick/Hasimir?format=json
+2014-12-20 13:04:41-0500 [BaneBot (TLSMemoryBIOProtocol),client] [Error]: title Traceback (most recent call last):
+	  File "/home/banebot/banebot/plugins/URL.py", line 105, in title
+	    soup = BeautifulSoup(requests.get(url, verify=False).text)
+	  File "/usr/lib/python2.7/dist-packages/requests/api.py", line 55, in get
+	    return request('get', url, **kwargs)
+	  File "/usr/lib/python2.7/dist-packages/requests/api.py", line 44, in request
+	    return session.request(method=method, url=url, **kwargs)
+	  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 455, in request
+	    resp = self.send(prep, **send_kwargs)
+	  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 558, in send
+	    r = adapter.send(request, **kwargs)
+	  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 378, in send
+	    raise ConnectionError(e)
+	ConnectionError: HTTPConnectionPool(host='www.oedb.info', port=80): Max retries exceeded with url: /nick/Hasimir?format=json (Caused by <class 'socket.error'>: [Errno 111] Connection refused)
+	
+2014-12-20 13:04:41-0500 [BaneBot (TLSMemoryBIOProtocol),client] Processed URL: http://www.oedb.info/nick/Hasimir?format=json
+2014-12-20 13:36:34-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad Hasimir
+2014-12-20 13:36:36-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad Hasimir
+2014-12-20 13:41:39-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad
+2014-12-20 13:41:43-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad
+2014-12-20 13:41:45-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad
+2014-12-20 13:41:46-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad
+2014-12-20 13:41:49-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?foad
+2014-12-20 13:41:52-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?insult
+2014-12-20 13:41:55-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?insult
+2014-12-20 13:43:59-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i Radio Shack
+2014-12-20 13:44:04-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock RSH
+2014-12-20 13:44:12-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i Best Buy
+2014-12-20 13:44:18-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i 7-11
+2014-12-20 13:44:23-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i 7 11
+2014-12-20 13:44:28-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i seven eleven
+2014-12-20 13:44:35-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i mcdonalds
+2014-12-20 13:44:41-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock MCD
+2014-12-20 13:44:48-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i Burger King
+2014-12-20 13:45:00-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock -i Starbucks
+2014-12-20 13:45:07-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?stock SBUX
+2014-12-20 13:53:51-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:53:51-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:53:51-0500 [-] 
+2014-12-20 13:53:51-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:53:51-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] 
+2014-12-20 13:53:51-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:53:51-0500 [-] 
+2014-12-20 13:53:51-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:53:51-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:53:51-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:53:51-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:53:51-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:53:51-0500 [-] 
+2014-12-20 13:53:51-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:53:51-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:53:51-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:53:51-0500 [-] 
+2014-12-20 13:53:51-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:53:51-0500 [-] 
+2014-12-20 13:53:51-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:53:51-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:53:51-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:54:12-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:54:12-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:54:12-0500 [-] 
+2014-12-20 13:54:12-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:54:12-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] 
+2014-12-20 13:54:12-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:54:12-0500 [-] 
+2014-12-20 13:54:12-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:54:12-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:54:12-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:54:12-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:54:12-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:54:12-0500 [-] 
+2014-12-20 13:54:12-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:54:12-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:54:12-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:54:12-0500 [-] 
+2014-12-20 13:54:12-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:54:13-0500 [-] 
+2014-12-20 13:54:13-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:54:13-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:54:13-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:54:59-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:54:59-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:54:59-0500 [-] 
+2014-12-20 13:54:59-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:54:59-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:54:59-0500 [-] 
+2014-12-20 13:54:59-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:54:59-0500 [-] 
+2014-12-20 13:54:59-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:54:59-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:54:59-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:55:36-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:55:36-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:55:36-0500 [-] 
+2014-12-20 13:55:36-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:55:36-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:55:36-0500 [-] 
+2014-12-20 13:55:36-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:55:36-0500 [-] 
+2014-12-20 13:55:36-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:55:36-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:55:36-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:55:36-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:55:36-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:55:36-0500 [-] 
+2014-12-20 13:55:36-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:55:36-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:55:36-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:55:36-0500 [-] 
+2014-12-20 13:55:36-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:55:36-0500 [-] 
+2014-12-20 13:55:36-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:55:36-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:55:36-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:55:42-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:55:42-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:55:42-0500 [-] 
+2014-12-20 13:55:42-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:55:42-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:55:42-0500 [-] 
+2014-12-20 13:55:42-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:55:42-0500 [-] 
+2014-12-20 13:55:42-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:55:42-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:55:42-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:55:48-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:55:48-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:55:48-0500 [-] 
+2014-12-20 13:55:48-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:55:48-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:55:48-0500 [-] 
+2014-12-20 13:55:48-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:55:48-0500 [-] 
+2014-12-20 13:55:48-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:55:48-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:55:48-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:56:42-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:56:42-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:56:42-0500 [-] 
+2014-12-20 13:56:42-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:56:42-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:56:42-0500 [-] 
+2014-12-20 13:56:42-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:56:42-0500 [-] 
+2014-12-20 13:56:42-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:56:42-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:56:42-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:56:42-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:56:42-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:56:42-0500 [-] 
+2014-12-20 13:56:42-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:56:42-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:56:42-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:56:42-0500 [-] 
+2014-12-20 13:56:42-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:56:42-0500 [-] 
+2014-12-20 13:56:42-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:56:42-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:56:42-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:57:02-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:57:02-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:57:02-0500 [-] 
+2014-12-20 13:57:02-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:57:02-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:57:02-0500 [-] 
+2014-12-20 13:57:02-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:57:02-0500 [-] 
+2014-12-20 13:57:02-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:57:02-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:57:02-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:57:58-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:57:58-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:57:58-0500 [-] 
+2014-12-20 13:57:58-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:57:58-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] 
+2014-12-20 13:57:58-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:57:58-0500 [-] 
+2014-12-20 13:57:58-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:57:58-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:57:58-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:57:58-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:57:58-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:57:58-0500 [-] 
+2014-12-20 13:57:58-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:57:58-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:57:58-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:57:58-0500 [-] 
+2014-12-20 13:57:58-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:57:58-0500 [-] 
+2014-12-20 13:57:58-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:57:58-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:57:58-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:59:59-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:59:59-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:59:59-0500 [-] 
+2014-12-20 13:59:59-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:59:59-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] 
+2014-12-20 13:59:59-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 13:59:59-0500 [-] 
+2014-12-20 13:59:59-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 13:59:59-0500 [-] Loaded plugin object: Lookup
+2014-12-20 13:59:59-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 13:59:59-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 13:59:59-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 13:59:59-0500 [-] 
+2014-12-20 13:59:59-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 13:59:59-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.ArgParser not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.ArgParserError not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.GeoIPAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.Lookup not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.UrbanDictionaryAPI2 not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.StockAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 13:59:59-0500 [-] WARNING: new-class plugins.Lookup.ForexAPI not replaced by reload!
+2014-12-20 13:59:59-0500 [-] 
+2014-12-20 13:59:59-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 14:00:00-0500 [-] 
+2014-12-20 14:00:00-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 14:00:00-0500 [-] Loaded plugin object: Lookup
+2014-12-20 14:00:00-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 14:00:47-0500 [-] Rebuilding plugins.Lookup...
+2014-12-20 14:00:47-0500 [-]   (scanning plugins.Lookup): 
+2014-12-20 14:00:47-0500 [-] 
+2014-12-20 14:00:47-0500 [-]   (reload   plugins.Lookup)
+2014-12-20 14:00:47-0500 [-]   (cleaning plugins.Lookup): 
+2014-12-20 14:00:47-0500 [-] 
+2014-12-20 14:00:47-0500 [-]   (fixing   plugins.Lookup): 
+2014-12-20 14:00:47-0500 [-] 
+2014-12-20 14:00:47-0500 [-]    Rebuilt plugins.Lookup.
+2014-12-20 14:00:47-0500 [-] Loaded plugin object: Lookup
+2014-12-20 14:00:47-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Lookup.py')
+2014-12-20 14:01:14-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:01:14-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:01:14-0500 [-] 
+2014-12-20 14:01:14-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:01:14-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:01:14-0500 [-] 
+2014-12-20 14:01:14-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:01:14-0500 [-] 
+2014-12-20 14:01:14-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:01:14-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:01:14-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:01:51-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:01:51-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:01:51-0500 [-] 
+2014-12-20 14:01:51-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:01:51-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:01:51-0500 [-] 
+2014-12-20 14:01:51-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:01:51-0500 [-] 
+2014-12-20 14:01:51-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:01:51-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:01:51-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:02:07-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:02:07-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:02:07-0500 [-] 
+2014-12-20 14:02:07-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:02:07-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:02:07-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:02:07-0500 [-] 
+2014-12-20 14:02:07-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:02:07-0500 [-] 
+2014-12-20 14:02:07-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:02:07-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:02:07-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:02:07-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:02:07-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:02:07-0500 [-] 
+2014-12-20 14:02:07-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:02:07-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:02:07-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:02:07-0500 [-] 
+2014-12-20 14:02:07-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:02:07-0500 [-] 
+2014-12-20 14:02:07-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:02:07-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:02:07-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:02:23-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:02:23-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:02:23-0500 [-] 
+2014-12-20 14:02:23-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:02:23-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:02:23-0500 [-] 
+2014-12-20 14:02:23-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:02:23-0500 [-] 
+2014-12-20 14:02:23-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:02:23-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:02:23-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:04:20-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:04:20-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:04:20-0500 [-] 
+2014-12-20 14:04:20-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:04:20-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:04:20-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:04:20-0500 [-] 
+2014-12-20 14:04:20-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:04:20-0500 [-] 
+2014-12-20 14:04:20-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:04:20-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:04:20-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:04:20-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:04:20-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:04:20-0500 [-] 
+2014-12-20 14:04:20-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:04:20-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:04:20-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:04:20-0500 [-] 
+2014-12-20 14:04:20-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:04:20-0500 [-] 
+2014-12-20 14:04:20-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:04:20-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:04:20-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:04:51-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:04:51-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:04:51-0500 [-] 
+2014-12-20 14:04:51-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:04:51-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:04:51-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:04:51-0500 [-] 
+2014-12-20 14:04:51-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:04:51-0500 [-] 
+2014-12-20 14:04:51-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:04:51-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:04:51-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:04:51-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:04:51-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:04:51-0500 [-] 
+2014-12-20 14:04:51-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:04:51-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:04:51-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:04:51-0500 [-] 
+2014-12-20 14:04:51-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:04:51-0500 [-] 
+2014-12-20 14:04:51-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:04:51-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:04:51-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:05:39-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?trolldb
+2014-12-20 14:07:13-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:07:13-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:07:13-0500 [-] 
+2014-12-20 14:07:13-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:07:13-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:07:13-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:07:13-0500 [-] 
+2014-12-20 14:07:13-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:07:13-0500 [-] 
+2014-12-20 14:07:13-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:07:13-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:07:13-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:07:13-0500 [-] Rebuilding plugins.Quotes...
+2014-12-20 14:07:13-0500 [-]   (scanning plugins.Quotes): 
+2014-12-20 14:07:13-0500 [-] 
+2014-12-20 14:07:13-0500 [-]   (reload   plugins.Quotes)
+2014-12-20 14:07:13-0500 [-]   (cleaning plugins.Quotes): 
+2014-12-20 14:07:13-0500 [-] WARNING: new-class plugins.Quotes.Quotes not replaced by reload!
+2014-12-20 14:07:13-0500 [-] 
+2014-12-20 14:07:13-0500 [-]   (fixing   plugins.Quotes): 
+2014-12-20 14:07:13-0500 [-] 
+2014-12-20 14:07:13-0500 [-]    Rebuilt plugins.Quotes.
+2014-12-20 14:07:13-0500 [-] Loaded plugin object: Quotes
+2014-12-20 14:07:13-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Quotes.py')
+2014-12-20 14:10:32-0500 [-] Rebuilding plugins.BTCE...
+2014-12-20 14:10:32-0500 [-]   (scanning plugins.BTCE): 
+2014-12-20 14:10:32-0500 [-] 
+2014-12-20 14:10:32-0500 [-]   (reload   plugins.BTCE)
+2014-12-20 14:10:32-0500 [-]   (cleaning plugins.BTCE): 
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.ArgParserError not replaced by reload!
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.BTCE not replaced by reload!
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.ArgParser not replaced by reload!
+2014-12-20 14:10:32-0500 [-] 
+2014-12-20 14:10:32-0500 [-]   (fixing   plugins.BTCE): 
+2014-12-20 14:10:32-0500 [-] 
+2014-12-20 14:10:32-0500 [-]    Rebuilt plugins.BTCE.
+2014-12-20 14:10:32-0500 [-] Loaded plugin object: BTCE
+2014-12-20 14:10:32-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/BTCE.py')
+2014-12-20 14:10:32-0500 [-] Rebuilding plugins.BTCE...
+2014-12-20 14:10:32-0500 [-]   (scanning plugins.BTCE): 
+2014-12-20 14:10:32-0500 [-] 
+2014-12-20 14:10:32-0500 [-]   (reload   plugins.BTCE)
+2014-12-20 14:10:32-0500 [-]   (cleaning plugins.BTCE): 
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.ArgParserError not replaced by reload!
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.BTCE not replaced by reload!
+2014-12-20 14:10:32-0500 [-] WARNING: new-class plugins.BTCE.ArgParser not replaced by reload!
+2014-12-20 14:10:32-0500 [-] 
+2014-12-20 14:10:32-0500 [-]   (fixing   plugins.BTCE): 
+2014-12-20 14:10:32-0500 [-] 
+2014-12-20 14:10:32-0500 [-]    Rebuilt plugins.BTCE.
+2014-12-20 14:10:33-0500 [-] Loaded plugin object: BTCE
+2014-12-20 14:10:33-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/BTCE.py')
+2014-12-20 14:11:13-0500 [-] Rebuilding plugins.BTCE...
+2014-12-20 14:11:13-0500 [-]   (scanning plugins.BTCE): 
+2014-12-20 14:11:13-0500 [-] 
+2014-12-20 14:11:13-0500 [-]   (reload   plugins.BTCE)
+2014-12-20 14:11:13-0500 [-]   (cleaning plugins.BTCE): 
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.ArgParserError not replaced by reload!
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.BTCE not replaced by reload!
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.ArgParser not replaced by reload!
+2014-12-20 14:11:13-0500 [-] 
+2014-12-20 14:11:13-0500 [-]   (fixing   plugins.BTCE): 
+2014-12-20 14:11:13-0500 [-] 
+2014-12-20 14:11:13-0500 [-]    Rebuilt plugins.BTCE.
+2014-12-20 14:11:13-0500 [-] Loaded plugin object: BTCE
+2014-12-20 14:11:13-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/BTCE.py')
+2014-12-20 14:11:13-0500 [-] Rebuilding plugins.BTCE...
+2014-12-20 14:11:13-0500 [-]   (scanning plugins.BTCE): 
+2014-12-20 14:11:13-0500 [-] 
+2014-12-20 14:11:13-0500 [-]   (reload   plugins.BTCE)
+2014-12-20 14:11:13-0500 [-]   (cleaning plugins.BTCE): 
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.ArgParserError not replaced by reload!
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.BTCE not replaced by reload!
+2014-12-20 14:11:13-0500 [-] WARNING: new-class plugins.BTCE.ArgParser not replaced by reload!
+2014-12-20 14:11:13-0500 [-] 
+2014-12-20 14:11:13-0500 [-]   (fixing   plugins.BTCE): 
+2014-12-20 14:11:13-0500 [-] 
+2014-12-20 14:11:13-0500 [-]    Rebuilt plugins.BTCE.
+2014-12-20 14:11:13-0500 [-] Loaded plugin object: BTCE
+2014-12-20 14:11:13-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/BTCE.py')
+2014-12-20 14:11:47-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:11:47-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:11:47-0500 [-] 
+2014-12-20 14:11:47-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:11:47-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:11:47-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParserError not replaced by reload!
+2014-12-20 14:11:47-0500 [-] WARNING: new-class plugins.Bitcoin.Bitcoin not replaced by reload!
+2014-12-20 14:11:47-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParser not replaced by reload!
+2014-12-20 14:11:47-0500 [-] 
+2014-12-20 14:11:47-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:11:47-0500 [-] 
+2014-12-20 14:11:47-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:11:47-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:11:47-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 14:11:47-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:11:47-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:11:47-0500 [-] 
+2014-12-20 14:11:47-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:11:47-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:11:47-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParserError not replaced by reload!
+2014-12-20 14:11:47-0500 [-] WARNING: new-class plugins.Bitcoin.Bitcoin not replaced by reload!
+2014-12-20 14:11:47-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParser not replaced by reload!
+2014-12-20 14:11:47-0500 [-] 
+2014-12-20 14:11:47-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:11:47-0500 [-] 
+2014-12-20 14:11:47-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:11:47-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:11:47-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 14:14:20-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:14:20-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:14:20-0500 [-] 
+2014-12-20 14:14:20-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:14:20-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:14:20-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParserError not replaced by reload!
+2014-12-20 14:14:20-0500 [-] WARNING: new-class plugins.Bitcoin.Bitcoin not replaced by reload!
+2014-12-20 14:14:20-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParser not replaced by reload!
+2014-12-20 14:14:20-0500 [-] 
+2014-12-20 14:14:20-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:14:20-0500 [-] 
+2014-12-20 14:14:20-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:14:20-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:14:20-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 14:14:20-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:14:20-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:14:20-0500 [-] 
+2014-12-20 14:14:20-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:14:20-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:14:20-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParserError not replaced by reload!
+2014-12-20 14:14:20-0500 [-] WARNING: new-class plugins.Bitcoin.Bitcoin not replaced by reload!
+2014-12-20 14:14:20-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParser not replaced by reload!
+2014-12-20 14:14:20-0500 [-] 
+2014-12-20 14:14:20-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:14:20-0500 [-] 
+2014-12-20 14:14:20-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:14:20-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:14:20-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 14:17:17-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:17:17-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:17:17-0500 [-] 
+2014-12-20 14:17:17-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:17:17-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:17:17-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParserError not replaced by reload!
+2014-12-20 14:17:17-0500 [-] WARNING: new-class plugins.Bitcoin.Bitcoin not replaced by reload!
+2014-12-20 14:17:17-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParser not replaced by reload!
+2014-12-20 14:17:17-0500 [-] 
+2014-12-20 14:17:17-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:17:17-0500 [-] 
+2014-12-20 14:17:17-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:17:17-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:17:17-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 14:17:17-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:17:17-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:17:17-0500 [-] 
+2014-12-20 14:17:17-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:17:17-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:17:17-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParserError not replaced by reload!
+2014-12-20 14:17:17-0500 [-] WARNING: new-class plugins.Bitcoin.Bitcoin not replaced by reload!
+2014-12-20 14:17:17-0500 [-] WARNING: new-class plugins.Bitcoin.ArgParser not replaced by reload!
+2014-12-20 14:17:17-0500 [-] 
+2014-12-20 14:17:17-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:17:17-0500 [-] 
+2014-12-20 14:17:17-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:17:17-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:17:17-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 14:17:56-0500 [-] Rebuilding plugins.Bitcoin...
+2014-12-20 14:17:56-0500 [-]   (scanning plugins.Bitcoin): 
+2014-12-20 14:17:56-0500 [-] 
+2014-12-20 14:17:56-0500 [-]   (reload   plugins.Bitcoin)
+2014-12-20 14:17:56-0500 [-]   (cleaning plugins.Bitcoin): 
+2014-12-20 14:17:56-0500 [-] 
+2014-12-20 14:17:56-0500 [-]   (fixing   plugins.Bitcoin): 
+2014-12-20 14:17:56-0500 [-] 
+2014-12-20 14:17:56-0500 [-]    Rebuilt plugins.Bitcoin.
+2014-12-20 14:17:56-0500 [-] Loaded plugin object: Bitcoin
+2014-12-20 14:17:56-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Bitcoin.py')
+2014-12-20 15:12:03-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> ?avg
+2014-12-20 15:20:12-0500 [-] Rebuilding plugins.CryptoCoinCharts...
+2014-12-20 15:20:12-0500 [-]   (scanning plugins.CryptoCoinCharts): 
+2014-12-20 15:20:12-0500 [-] 
+2014-12-20 15:20:12-0500 [-]   (reload   plugins.CryptoCoinCharts)
+2014-12-20 15:20:12-0500 [-]   (cleaning plugins.CryptoCoinCharts): 
+2014-12-20 15:20:12-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.CryptoCoinCharts not replaced by reload!
+2014-12-20 15:20:12-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.ArgParserError not replaced by reload!
+2014-12-20 15:20:12-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.ArgParser not replaced by reload!
+2014-12-20 15:20:12-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 15:20:12-0500 [-] 
+2014-12-20 15:20:12-0500 [-]   (fixing   plugins.CryptoCoinCharts): 
+2014-12-20 15:20:12-0500 [-] 
+2014-12-20 15:20:12-0500 [-]    Rebuilt plugins.CryptoCoinCharts.
+2014-12-20 15:20:14-0500 [-] Loaded plugin object: CryptoCoinCharts
+2014-12-20 15:20:14-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/CryptoCoinCharts.py')
+2014-12-20 15:20:14-0500 [-] Rebuilding plugins.CryptoCoinCharts...
+2014-12-20 15:20:14-0500 [-]   (scanning plugins.CryptoCoinCharts): 
+2014-12-20 15:20:14-0500 [-] 
+2014-12-20 15:20:14-0500 [-]   (reload   plugins.CryptoCoinCharts)
+2014-12-20 15:20:14-0500 [-]   (cleaning plugins.CryptoCoinCharts): 
+2014-12-20 15:20:14-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.CryptoCoinCharts not replaced by reload!
+2014-12-20 15:20:14-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.ArgParserError not replaced by reload!
+2014-12-20 15:20:14-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.ArgParser not replaced by reload!
+2014-12-20 15:20:14-0500 [-] WARNING: new-class plugins.CryptoCoinCharts.EvenAndMinMaxPairs not replaced by reload!
+2014-12-20 15:20:14-0500 [-] 
+2014-12-20 15:20:14-0500 [-]   (fixing   plugins.CryptoCoinCharts): 
+2014-12-20 15:20:14-0500 [-] 
+2014-12-20 15:20:14-0500 [-]    Rebuilt plugins.CryptoCoinCharts.
+2014-12-20 15:20:16-0500 [-] Loaded plugin object: CryptoCoinCharts
+2014-12-20 15:20:16-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/CryptoCoinCharts.py')
+2014-12-20 15:23:48-0500 [-] Rebuilding plugins.Math...
+2014-12-20 15:23:48-0500 [-]   (scanning plugins.Math): 
+2014-12-20 15:23:48-0500 [-] 
+2014-12-20 15:23:48-0500 [-]   (reload   plugins.Math)
+2014-12-20 15:23:48-0500 [-]   (cleaning plugins.Math): 
+2014-12-20 15:23:48-0500 [-] WARNING: new-class plugins.Math.Math not replaced by reload!
+2014-12-20 15:23:48-0500 [-] 
+2014-12-20 15:23:48-0500 [-]   (fixing   plugins.Math): 
+2014-12-20 15:23:49-0500 [-] 
+2014-12-20 15:23:49-0500 [-]    Rebuilt plugins.Math.
+2014-12-20 15:23:49-0500 [-] Loaded plugin object: Math
+2014-12-20 15:23:49-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Math.py')
+2014-12-20 15:23:49-0500 [-] Rebuilding plugins.Math...
+2014-12-20 15:23:49-0500 [-]   (scanning plugins.Math): 
+2014-12-20 15:23:49-0500 [-] 
+2014-12-20 15:23:49-0500 [-]   (reload   plugins.Math)
+2014-12-20 15:23:49-0500 [-]   (cleaning plugins.Math): 
+2014-12-20 15:23:49-0500 [-] 
+2014-12-20 15:23:49-0500 [-]   (fixing   plugins.Math): 
+2014-12-20 15:23:49-0500 [-] 
+2014-12-20 15:23:49-0500 [-]    Rebuilt plugins.Math.
+2014-12-20 15:23:49-0500 [-] Loaded plugin object: Math
+2014-12-20 15:23:49-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Math.py')
+2014-12-20 15:25:00-0500 [-] Rebuilding plugins.Porn...
+2014-12-20 15:25:00-0500 [-]   (scanning plugins.Porn): 
+2014-12-20 15:25:00-0500 [-] 
+2014-12-20 15:25:00-0500 [-]   (reload   plugins.Porn)
+2014-12-20 15:25:00-0500 [-]   (cleaning plugins.Porn): 
+2014-12-20 15:25:00-0500 [-] WARNING: new-class plugins.Porn.Porn not replaced by reload!
+2014-12-20 15:25:00-0500 [-] 
+2014-12-20 15:25:00-0500 [-]   (fixing   plugins.Porn): 
+2014-12-20 15:25:00-0500 [-] 
+2014-12-20 15:25:00-0500 [-]    Rebuilt plugins.Porn.
+2014-12-20 15:25:00-0500 [-] Loaded plugin object: Porn
+2014-12-20 15:25:00-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Porn.py')
+2014-12-20 15:25:00-0500 [-] Rebuilding plugins.Porn...
+2014-12-20 15:25:00-0500 [-]   (scanning plugins.Porn): 
+2014-12-20 15:25:00-0500 [-] 
+2014-12-20 15:25:00-0500 [-]   (reload   plugins.Porn)
+2014-12-20 15:25:00-0500 [-]   (cleaning plugins.Porn): 
+2014-12-20 15:25:00-0500 [-] WARNING: new-class plugins.Porn.Porn not replaced by reload!
+2014-12-20 15:25:00-0500 [-] 
+2014-12-20 15:25:00-0500 [-]   (fixing   plugins.Porn): 
+2014-12-20 15:25:00-0500 [-] 
+2014-12-20 15:25:00-0500 [-]    Rebuilt plugins.Porn.
+2014-12-20 15:25:00-0500 [-] Loaded plugin object: Porn
+2014-12-20 15:25:00-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/Porn.py')
+2014-12-20 15:25:56-0500 [-] Rebuilding plugins.About...
+2014-12-20 15:25:56-0500 [-]   (scanning plugins.About): 
+2014-12-20 15:25:56-0500 [-] 
+2014-12-20 15:25:56-0500 [-]   (reload   plugins.About)
+2014-12-20 15:25:56-0500 [-]   (cleaning plugins.About): 
+2014-12-20 15:25:56-0500 [-] 
+2014-12-20 15:25:56-0500 [-]   (fixing   plugins.About): 
+2014-12-20 15:25:56-0500 [-] 
+2014-12-20 15:25:56-0500 [-]    Rebuilt plugins.About.
+2014-12-20 15:25:56-0500 [-] Loaded plugin object: About
+2014-12-20 15:25:56-0500 [-] Reloaded FilePath('/home/banebot/banebot/plugins/About.py')
+2014-12-20 15:34:28-0500 [BaneBot (TLSMemoryBIOProtocol),client] [#bitcoin-genericpersona] <genericpersona!~generic@unaffiliated/genericpersona> seriously? lol
