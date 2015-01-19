@@ -22,7 +22,6 @@ class Bitcoin(pb.CommandPlugin):
 
     # Preev attributes
     self.build_preev_parser()
-    self.preev_help()
 
   def commands(self):
     return { 'avg': self.avg
@@ -229,9 +228,6 @@ class Bitcoin(pb.CommandPlugin):
           return set([x for xchgs in exchanges.values() for x in xchgs])
       
       return exchanges[coin.upper()]
-
-  def preev_help(self):
-      self._helpd[u'preev'] = self.preev_parser.format_usage()
 
   def preev_metals(self):
       return (u'XAU', u'XAG', u'XPT', u'XPD')
