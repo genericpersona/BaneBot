@@ -2,7 +2,9 @@
 
 import random
 import subprocess as sp
+import shlex
 import sys
+import traceback
 
 import bashquote as bq
 from bs4 import BeautifulSoup
@@ -187,23 +189,27 @@ class Quotes(pb.CommandPlugin):
   def foad(self, args, irc):
     '''(foad [nickname]) -- https://github.com/adversary-org/foad
     '''
-    if not args:
-        cmnd = 'foad.py -f random -n {}'.format(irc.sender)
-    else:
-        cmnd = 'foad.py -f random -s {} -n {}'.format(irc.sender, args[0])
+    cmnd = 'foad.py -f random -n "{}"'.format(irc.sender if not args \
+                                                       else u' '.join(args))
+    log.msg('args: {}'.format(args))
 
     try:
-        return sp.check_output(cmnd.split())
+        return sp.check_output(shlex.split(cmnd))
     except sp.CalledProcessError:
+        log.msg('foad error: {}'.format(traceback.format_exc()))
         return u'Go fuck yourself, {}'.format(irc.sender) 
 
   def fortune(self, args, irc):
+    '''(fortune) -- Output from the UNIX fortune program
+    '''
     off = '-a ' if self.fortune_off else ''
     cmnd = 'fortune {}-s -n {}'.format(off, self.fortune_max_len)
     return u' '.join(\
             sp.check_output(cmnd.split()).replace(u'\n', u' ').split())
  
   def homer(self, args, irc):
+    '''(homer) -- Random Homer Simpson quote.
+    '''
     cmnd = 'fortune homer'.format(self.fortune_max_len)
     return u' '.join(\
             sp.check_output(cmnd.split()).replace(u'\n', u' ').split())
@@ -356,6 +362,6 @@ class Quotes(pb.CommandPlugin):
     '''
     if self.trolldb_max_len > 0:
         cmnd = 'fortune -s -n {} trolldb'.format(int(self.trolldb_max_len * 1.5))
-    else
+    else:
         cmnd = 'fortune trolldb'
     return sp.check_output(cmnd.split()).replace(u'\n', u'')
