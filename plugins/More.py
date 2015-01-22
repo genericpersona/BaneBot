@@ -14,6 +14,12 @@ class More(pb.CommandPlugin):
            }
 
   def more(self, args, irc):
+    if not hasattr(irc, '_mored'):
+      # For sending long lines of text
+      # Maps a nickname to the text
+      # left to send
+      irc._mored = {}
+
     if not irc._mored.get(irc.sender):
       return 
 

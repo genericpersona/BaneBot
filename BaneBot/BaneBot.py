@@ -45,11 +45,6 @@ class BaneBot(irc.IRCClient):
         for k, v in net_conf.iteritems():
             setattr(self, k, v)
 
-        # For sending long lines of text
-        # Maps a nickname to the text
-        # left to send
-        self._mored = {}
-
     def action(self, user, channel, data):
         '''Called when I see a user perform an action.
         '''
@@ -144,6 +139,7 @@ class BaneBot(irc.IRCClient):
     def irc_RPL_ENDOFWHO(self, *nargs):
       '''End of WHO reply
       '''
+      # Extract returned information
       if self.who_reply[0] is not None:
           nick = self.who_reply[-1][5]
           username = self.who_reply[-1][2]
@@ -151,8 +147,26 @@ class BaneBot(irc.IRCClient):
           full = u'{} ({}@{})'.format(nick, username, host)
           reply = u'{} is online'.format(full)
       else:
+          full = None
           reply = u'{} is not online'.format(self.who_reply[-1])
 
+      # Check if the nick is in the tell dict
+      if hasattr(self, '_telld') and self._tell_check is not None:
+          if full is not None and nick in self._telld:
+              # Don't send if the user is currently online
+              src, _ = self._telld[nick]
+              reply = u'{} is online. Send a PM youself, silly ass.'.\
+                      format(nick)
+              del self._telld[nick]
+          else:
+              src, dst = self._tell_check
+              reply = u'Message queued for {}'.format(dst)
+
+          self._tell_check = None
+          self.msg(src, encode(reply))
+          return
+
+      # Otherwise, respond to the online command
       self.msg(self.channel if not self.pm else self.sender, encode(reply))
 
     def irc_RPL_WHOREPLY(self, *nargs):
@@ -188,6 +202,8 @@ class BaneBot(irc.IRCClient):
         lines = lines[:self.fact.max_more_lines]
 
         # Save it in the dict for the more plugin
+        if not hasattr(self, '_mored'):
+            self._mored = {}
         self._mored[self.sender] = lines
 
         # Get the next line to send
@@ -310,6 +326,14 @@ class BaneBot(irc.IRCClient):
             return shlex.split(msg)
         except ValueError:
             return msg.split()
+
+    def userJoined(self, user, channel):
+        '''Called when a user joins a channel.
+        '''
+        if user in self._telld:
+            src, msg = self._telld[user]
+            self.msg(user, '{} says: {}'.format(src, msg))
+            del self._telld[user] 
 
 class BaneBotFactory(protocol.ClientFactory):
     encoding = 'utf-8'
