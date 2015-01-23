@@ -105,7 +105,7 @@ class BaneBot(irc.IRCClient):
 
     def getCommand(self, msg):
         '''
-        Isolate the portion of a privmsg msg
+        Isolate the portion of a privmsg 
         containing a command and its arguments for
         a command-based plugin.
 
@@ -158,6 +158,9 @@ class BaneBot(irc.IRCClient):
               reply = u'{} is online. Send a PM youself, silly ass.'.\
                       format(nick)
               del self._telld[nick]
+
+              # Save the telld to disk
+              self.fact.commands['tell'].saveTellDict(self)
           else:
               src, dst = self._tell_check
               reply = u'Message queued for {}'.format(dst)
@@ -252,18 +255,18 @@ class BaneBot(irc.IRCClient):
         self.error = False
         msg = decode(msg)
 
+        # Then, check for the presence of a command
         cmnd = self.getCommand(msg)
         if cmnd:
             try:
               response = self.eval(self.parse(cmnd))
               if response:
-                  return self.moreSend(\
-                            self.sender if self.pm else channel, response)
+                  self.moreSend(self.sender if self.pm else channel, response)
             except pb.CommandError, ce:
-              return self.msg(self.sender if ce.pm else channel,
+              self.msg(self.sender if ce.pm else channel,
                       encode(u'{}'.format(se)))
             except SyntaxError, se:
-              return self.msg(self.sender if self.pm else channel, 
+              self.msg(self.sender if self.pm else channel, 
                       encode(u'{}'.format(se)))
             finally:
               # Log each command responded to
@@ -333,7 +336,10 @@ class BaneBot(irc.IRCClient):
         if user in self._telld:
             src, msg = self._telld[user]
             self.msg(user, '{} says: {}'.format(src, msg))
+
+            # Update the tell dict
             del self._telld[user] 
+            self.fact.commands['tell'].saveTellDict(self)
 
 class BaneBotFactory(protocol.ClientFactory):
     encoding = 'utf-8'
@@ -428,8 +434,7 @@ class BaneBotFactory(protocol.ClientFactory):
         # Import all the plugins and save a mapping of name to module
         self.modules = { os.path.join(self.plugins_dir, plugin): \
                          import_module('plugins.{}'.format(os.path.splitext(plugin)[0])) \
-                         for plugin \
-                         in plugins
+                         for plugin in plugins
                        }
 
         # Create objects for all plugin classes

@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import cPickle as pickle
+import os
+import zlib
 
 from twisted.python import log
 
@@ -12,6 +15,26 @@ class Tell(pb.CommandPlugin):
   def commands(self):
     return { 'tell': self.tell
            }
+
+  def loadTellDict(self, irc):
+    '''Load the tell dict from disk.
+    '''
+    if not os.path.exists(self.pickle_path):
+        if not hasattr(irc, '_telld'):
+            irc._telld = {}
+        return
+
+    with open(self.pickle_path, 'rb') as pf:
+        irc._telld = pickle.loads(zlib.decompress(pf.read()))
+
+  def saveTellDict(self, irc):
+    '''Save the tell dict to disk.
+    '''
+    if not hasattr(irc, '_telld'):
+        return
+
+    with open(self.pickle_path, 'wb') as pf:
+        pf.write(zlib.compress(pickle.dumps(irc._telld)))
 
   def tell(self, args, irc):
     '''(tell nickname message) --
@@ -33,6 +56,9 @@ class Tell(pb.CommandPlugin):
     # Save the nick, sender, and msg to the telld
     nick, msg = args[0], u' '.join(args[1:])
     irc._telld[nick] = (irc.sender, msg)
+
+    # Save the telld to disk
+    self.saveTellDict(irc)
 
     # Check to see if the user is online
     irc._tell_check = (irc.sender, nick)
