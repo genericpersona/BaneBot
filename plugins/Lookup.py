@@ -4,6 +4,7 @@ import argparse
 import datetime
 import subprocess as sp
 import sys
+import traceback
 import urllib2
 
 from bs4 import BeautifulSoup
@@ -20,6 +21,7 @@ import plugins.PluginBase as pb
 class Lookup(pb.CommandPlugin):
   DOJ_URL = 'http://doj.me/?url={}'
   OMDB_URL = 'http://www.omdbapi.com/?t={}&plot=short&r=json'
+  OTP_URL = 'http://bitcoin-otc.com/otps/{}'
   WEATHER_URL = \
     'http://api.openweathermap.org/data/2.5/weather?q={}' + \
     '&cnt=1&mode=json&units=imperial'
@@ -69,6 +71,8 @@ class Lookup(pb.CommandPlugin):
            , 'silver': self.silver
            , 'stock': self.stock
            , 'ud': self.ud
+           , 'otp': self.otp
+           , 'otp-Elio19': self.otp_elio
            , 'weather': self.weather
            , 'whois': self.whois
            , 'wikipedia': self.wikipedia
@@ -308,9 +312,38 @@ class Lookup(pb.CommandPlugin):
     reply = self.ud_api.lookup_all(u''.join(args))
     return reply if reply else u'Nothing found for {}'.format(u' '.join(args))
 
+  def otp(self, args, irc):
+    '''(otp <key id>) -- Retrieves gribble OTP for the given ked id.
+    '''
+    if not args:
+      raise SyntaxError('Missing key ID')
+
+    try:
+      r = requests.get(self.OTP_URL.format(args[0]))
+      pasted = { 'content': r.text
+               , 'title': 'OTP for {}'.format(args[0])
+               }
+
+      paste = requests.post('http://dpaste.com/api/v2/', data=pasted)
+      soup = BeautifulSoup(paste.text)
+
+      title = soup.title.string
+      purl = title.split(': ')[1]
+      return 'OTP for {} pasted at {}'.format(args[0], 
+          'http://dpaste.com/{}'.format(purl))
+    except:
+      log.msg('traceback: {}'.format(traceback.format_exc()))
+      irc.pm = True
+      return u'[Error]: Cannot contact OTP API'
+
+  def otp_elio(self, args, irc):
+    '''Courtesy for the king of balm.
+    '''
+    return self.otp(['51BD192C9176B0A9'], irc)
+
   def weather(self, args, irc):
     '''(weather [place]) --
-    Return weather data about a particular place.
+    Return weather data about ae particular place.
     '''
     city = urllib2.quote(u' '.join(args))
     try:
