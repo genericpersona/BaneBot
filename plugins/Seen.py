@@ -2,6 +2,8 @@
 
 import cPickle as pickle
 from datetime import datetime
+import os
+import zlib
 
 from dateutil.relativedelta import relativedelta 
 
@@ -14,6 +16,25 @@ class Seen(pb.LinePlugin, pb.CommandPlugin):
   def commands(self):
     return { 'seen': self.seen
            }
+ 
+  def deleteOldestN(self, n, irc):
+    '''Delete the oldest n seen messages.
+    '''
+    if not hasattr(irc, '_seend'):
+        return
+
+    entries = []
+    for chan in irc._seend:
+        for nick in irc._seend[chan]:
+            entries.append((chan, nick, irc._seend[chan][nick][0]))
+
+    entries_sorted = sorted(entries, key=lambda x: x[-1])
+    for i, entry in enumerate(entries_sorted):
+        if i >= n: 
+            break
+
+        chan, nick, _ = entry
+        del irc._seend[chan][nick]
 
   def hasResponse(self, msg, irc):
     '''Hooks this method to save when a user
@@ -26,15 +47,34 @@ class Seen(pb.LinePlugin, pb.CommandPlugin):
     if irc.sender == irc.channel:
       return False
 
+    # Check for the size
+    if self.totalSeen(irc) >= self.max_seen:
+        self.deleteOldestN(self.max_seen / 2, irc)
+
     if irc.channel in irc._seend:
       irc._seend[irc.channel][irc.sender] = (datetime.utcnow(), msg)
     else:
       irc._seend[irc.channel] = {irc.sender: (datetime.utcnow(), msg)}
 
-  def loadSeenDict(self):
+    self.saveSeenDict(irc)
+
+  def loadSeenDict(self, irc):
     '''Load the pickled seend from the
     bot's last run.
     '''
+    if not os.path.exists(self.pickle_path):
+        if not hasattr(irc, '_seend'):
+            irc._seend = {}
+        return
+
+    with open(self.pickle_path, 'rb') as pf:
+        irc._seend = pickle.loads(zlib.decompress(pf.read()))
+
+  def saveSeenDict(self, irc):
+    '''Save the seen dict to the pickled file.
+    '''
+    with open(self.pickle_path, 'wb+') as pf:
+        pf.write(zlib.compress(pickle.dumps(irc._seend)))
 
   def seen(self, args, irc):
     '''(seen [channel] <nick>) -- Returns
@@ -60,6 +100,7 @@ class Seen(pb.LinePlugin, pb.CommandPlugin):
         or not nick in irc._seend[channel]:
           return u'I have not seen {} in {}'.format(nick, channel)
 
+    # Get the datetime and the relative delta
     dt, msg = irc._seend[channel][nick]
     rd = relativedelta(datetime.utcnow(), dt)
 
@@ -74,4 +115,11 @@ class Seen(pb.LinePlugin, pb.CommandPlugin):
         format(nick=nick, chan=channel, time=time, msg=msg)
     return reply
 
+  def totalSeen(self, irc):
+    '''Return the total seen messages.
+    '''
+    if not hasattr(irc, '_seend'):
+        return 0
 
+    total = sum(map(len, irc._seend.values()))
+    return total
