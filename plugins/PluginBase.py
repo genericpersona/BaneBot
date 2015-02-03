@@ -88,7 +88,7 @@ class LinePlugin(PluginBase):
 class CommandError(Exception):
     def __init__(self, message, pm=True):
         # Call the base class constructor with the parameters it needs
-        super(ValidationError, self).__init__(message)
+        super(CommandError, self).__init__(message)
 
         # Whether this should be sent as a PM
         self.pm = pm

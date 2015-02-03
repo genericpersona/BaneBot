@@ -20,6 +20,7 @@ class Quotes(pb.CommandPlugin):
   EI_URL = 'http://quandyfactory.com/insult/json'
   EUPHEMISM_URL = 'http://toykeeper.net/programs/mad/euphemisms'
   INSULTS_GEN_URL = 'http://www.insultgenerator.org/'
+  JOKE_URL = 'http://www.goodbadjokes.com/random'
   LI_URL = 'http://ergofabulous.org/luther/'
   NKI_URL = 'http://www.nk-news.net/extras/insult_generator.php'
   PICKUP_LINES_URL = 'http://www.pickuplinegen.com/'
@@ -54,6 +55,7 @@ class Quotes(pb.CommandPlugin):
              , 'fortune': self.fortune
              , 'homer': self.homer
              , 'insult': self.insult
+             , 'joke': self.joke
              , 'li': self.luther_insult
              , 'mormon': self.mormon
              #, 'nki': self.north_korean_insult
@@ -239,6 +241,25 @@ class Quotes(pb.CommandPlugin):
     except:
         log.err('[Error]: Issue with insults generator {}'.format(sys.exc_info()[0]))
         return u'You should have been a handjob.'
+
+  def joke(self, args, irc):
+    '''(joke) -- Random joke from goodbadjokes.com
+    '''
+    try:
+        r = requests.get(self.JOKE_URL)
+        if r.status_code != 200:
+            log.err('Error]: Status code of {} for joke'.format(r.status_code))
+            return
+
+        soup = BeautifulSoup(r.text)
+        joke = soup.find('span', {'class': 'joke-content'})
+        q = joke.find('dt').text 
+        a = joke.find('dd').text
+
+        return '{} {}'.format(q, a)
+    except:
+        log.err('[Error]: {}'.format(sys.exc_info()[0]))
+        raise pb.CommandError('[Error]: Cannot contact goodbadjokes.com', pm=False)
 
   def luther_insult(self, args, irc):
     '''(li [nickname]) -- Lutheran insult from ergofabulous.org
