@@ -26,6 +26,11 @@ class Bitcoin(pb.CommandPlugin):
   def commands(self):
     return { 'avg': self.avg
            , 'balance': self.balance
+           , 'blocks': self.blocks
+           , 'block-hash': self.block_hash
+           , 'bh': self.block_hash
+           , 'latest-hash': self.latest_hash
+           , 'lh': self.latest_hash
            , 'preev': self.preev
            }
 
@@ -104,6 +109,21 @@ class Bitcoin(pb.CommandPlugin):
           pass
 
       return str(btc.balance(addr))
+
+  def block_hash(self, args, irc):
+    '''(block-hash <block>) -- 
+    Return the hash of a given block
+    '''
+    if not args:
+        raise pb.CommandError('Missing the block to find the hash of', pm=False)
+
+    return u'{}'.format(btc.block_hash(args[0]))
+
+  def blocks(self, args, irc):
+    '''(blocks) -- 
+    Return the current block on main net.
+    '''
+    return u'{:,}'.format(btc.current_block())
 
   def build_avg_parser(self):
     '''Build a parser for the avg command.
@@ -191,6 +211,11 @@ class Bitcoin(pb.CommandPlugin):
       '''
       self.last_avg_fetch = datetime.datetime.utcnow()
       return self.baa.saveAll()
+
+  def latest_hash(self, args, irc):
+      '''(latest_hash) -- Hash of the current mainnet block
+      '''
+      return u'{}'.format(btc.latest_hash())
 
   def preev(self, args, irc):
       '''(preev [-x/--without exchanges] [-c/--coin coin] [currencies])

@@ -44,6 +44,13 @@ def block_hash(block):
         block: int
             Which block to retrieve the hash from
     '''
+    for obj in [BlockExplorerAPI(), BlockrAPI()]:
+        try:
+            bh = obj.blockHash(block)
+            if bh is not None:
+                return bh 
+        except:
+            pass
 
 def btc_avg(currency):
     '''
@@ -82,6 +89,13 @@ def latest_hash():
     '''
     Return the hash of the current block
     '''
+    for obj in [BlockchainAPI(), BlockExplorerAPI(), BlockrAPI()]:
+        try:
+            lh = obj.latestHash()
+            if lh is not None:
+                return lh 
+        except:
+            pass
 
 def valid_address(addr):
     '''
