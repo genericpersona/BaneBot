@@ -32,6 +32,7 @@ class Bitcoin(pb.CommandPlugin):
            , 'latest-hash': self.latest_hash
            , 'lh': self.latest_hash
            , 'preev': self.preev
+           , 'totalbcs': self.total_bcs
            , 'tslb': self.tslb
            }
 
@@ -293,6 +294,11 @@ class Bitcoin(pb.CommandPlugin):
           error = '[Error]: Unable to access preev ticker'
           log.err(error)
           return error
+
+  def total_bcs(self, args, irc):
+      '''(totalbcs) -- Total Bitcoins in circulation
+      '''
+      return '{:,}'.format(btc.total_bcs())
             
   def tslb(self, args, irc):
       '''(tslb) -- Time since last block on Main Net
