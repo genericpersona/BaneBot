@@ -32,6 +32,7 @@ class Bitcoin(pb.CommandPlugin):
            , 'latest-hash': self.latest_hash
            , 'lh': self.latest_hash
            , 'preev': self.preev
+           , 'tslb': self.tslb
            }
 
   def avg(self, args, irc):
@@ -293,6 +294,10 @@ class Bitcoin(pb.CommandPlugin):
           log.err(error)
           return error
             
+  def tslb(self, args, irc):
+      '''(tslb) -- Time since last block on Main Net
+      '''
+      return btc.tslb()
 
 #-------------------------------------
 #

@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 
 # Imports
+from datetime import datetime
 import json
 import re
+import time
+import traceback
 
+from dateutil.parser import parse
 import requests
+from twisted.python import log
 
 from utils.url import safe_get
 
@@ -97,6 +102,34 @@ def latest_hash():
         except:
             pass
 
+def tslb():
+    '''
+    Returns a string representing the time since the last block.
+    '''
+    cb = current_block()
+    cbts = None
+    for obj in [BlockrAPI()]:
+        try:
+            cbts = obj.blockTS(cb)
+            if cbts:
+                log.msg('[tslb]: {}; [time]: {}'.format(cbts, int(time.time())))
+                break
+        except:
+            log.err('[Error tslb]: {}'.format(traceback.format_exc()))
+            pass
+
+    if cbts is None:
+        return
+
+    ts_diff = int(datetime.utcnow().strftime('%s')) - cbts
+    mins, secs = divmod(ts_diff, 60)
+    return u'{} min{}, {} sec{}'.\
+                format( mins
+                      , 's' if mins > 1 else ''
+                      , secs
+                      , 's' if secs > 1 else ''
+                      )
+
 def valid_address(addr):
     '''
     Return True if addr is a valid Bitcoin address
@@ -150,6 +183,14 @@ class BlockchainAPI(object):
         info = safe_get([self.BLOCK_INFO.format(block)], None)
         if not info is None:
             return json.loads(info)['hash']
+
+    def blockTS(self, block):
+        '''
+        Returns the timestamp for a particular block.
+        '''
+        block = safe_get([self.BLOCK_INFO.format(block)], None)
+        if block:
+            return json.loads(block)['time']
 
     def currentBlock(self):
         last = safe_get([self.LAST_BLOCK], None)
@@ -209,6 +250,12 @@ class BlockrAPI(object):
             block_data = json.loads(block_data)
             if block_data['status'] == 'success':
                 return block_data['data']['hash']
+
+    def blockTS(self, block):
+        block = safe_get([self.BLOCK_INFO.format(block)], None)
+        if block:
+            tss = json.loads(block)['data']['time_utc']
+            return int(parse(tss, tzinfos={'UTC': 0}).strftime('%s'))
     
     def currentBlock(self):
         last = safe_get([self.LAST_BLOCK], None)
