@@ -98,7 +98,7 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
       raise pb.CommandError(u'[Error]: Invalid URL', pm=True)
 
     if r.status_code != 200:
-      msg = '[Error]: Daily limit exceeded')
+      msg = '[Error]: Bot\'s daily limit exceeded'
       if 'error' in r.json():
           for error in r.json()['error']['errors']:
               log.err('[Error URL.shorten_url]: {}'.format(\
