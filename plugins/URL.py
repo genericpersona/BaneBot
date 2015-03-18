@@ -49,7 +49,11 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
             responses.append(self.title(url))
 
         if len(url) > self.max_url_len:
-            responses.append(u'Shortened: {}'.format(self.shorten_url(url)))
+            try:
+                short = self.shorten_url(url)
+                responses.append(u'Shortened: {}'.format(short))
+            except pb.CommandError:
+                pass
 
         log.msg('Processed URL: {}'.format(url))
 
@@ -91,10 +95,16 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
     try:
       r = requests.post(self.GOOGLE_SHORTEN, headers=headers, data=data)
     except:
-      return u'[Error]: Invalid URL'
+      raise pb.CommandError(u'[Error]: Invalid URL', pm=True)
 
     if r.status_code != 200:
-      return u'[Error]: Invalid status code {}'.format(r.status_code)
+      msg = '[Error]: Daily limit exceeded')
+      if 'error' in r.json():
+          for error in r.json()['error']['errors']:
+              log.err('[Error URL.shorten_url]: {}'.format(\
+                      error['message']))
+
+      raise pb.CommandError(msg, pm=True)
     else:
       return r.json()['id']
 
@@ -155,7 +165,7 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
       '''
       try:
         if not args:
-            return u'[Error]: Missing YouTube search terms'
+            raise pb.CommandError(u'[Error]: Missing YouTube search terms', pm=False)
 
         terms = u'+'.join(args)
         r = requests.get(self.YT_SEARCH.format(terms))
@@ -166,4 +176,4 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
         return u'{} | {}'.format(url, self.youtube_data(url))
       except:
         log.err('[Error]: yt {}'.format(sys.exc_info()[0]))
-        return u'[Error]: Could not contact YouTube'
+        raise pb.CommandError(u'[Error]: Could not contact YouTube', pm=True)
