@@ -117,7 +117,7 @@ class CryptoCoinCharts(pb.CommandPlugin):
     '''
     try:
       # Now, grab the pairs data
-      r = requests.get(self.api_list_coins, timeout=1)
+      r = requests.get(self.api_list_coins, timeout=5)
       if r.status_code != 200:
         log.err('[Error]: Status code {} for listing coins'.\
                     format(r.status_code))

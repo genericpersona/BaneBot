@@ -87,10 +87,15 @@ class Porn(pb.CommandPlugin):
         try:
             r = requests.get(url, headers=heads)
 
+            if r.status_code != 200:
+                return u'[Error]: /r/{} does not exist'.format(args[0])
+
             for sd in r.json()['data']['children']:
                 title = sd['data']['title']
                 if not ('[m]' in title.lower() or '(m)' in title.lower()):
                     return u'{} | {}'.format(title, sd['data']['url'])
+        except ValueError:
+            return u'[Error]: /r/{} did not have images'.format(args[0])
         except:
             return u'[Error]: Cannot retrieve latest sub-reddit smut'
 
@@ -103,16 +108,15 @@ class Porn(pb.CommandPlugin):
            , 'bbw': 'bbw'
            , 'ch': 'gonewildchubby'
            , 'gw': 'gonewild'
+           , 'gwc': 'gonewildcurvy'
            , 'iw': 'indiansgonewild'
            , 'lw': 'latinasgw'
            , 'oo': 'onoff'
            }
     if sr in urls:
         return urls[sr]
-    elif sr in urls.values():
-        return sr
     else:
-        return ''
+        return sr
 
   def porn(self, args, irc):
     '''(porn [-v/--video]) -- 

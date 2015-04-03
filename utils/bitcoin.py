@@ -102,17 +102,31 @@ def latest_hash():
         except:
             pass
 
+def total_bcs():
+    '''
+    Returns the total bitcoins in circulation
+    '''
+    for obj in [BlockExplorerAPI()]:
+      try:
+        total = obj.totalBCs()
+        if total is not None:
+          return int(float(total))
+      except:
+        log.err('[Error totalbcs]: {}'.format(traceback.format_exc()))
+        pass
+
 def tslb():
     '''
     Returns a string representing the time since the last block.
     '''
     cb = current_block()
     cbts = None
+    now = int(datetime.utcnow().strftime('%s'))
     for obj in [BlockrAPI()]:
         try:
             cbts = obj.blockTS(cb)
             if cbts:
-                log.msg('[tslb]: {}; [time]: {}'.format(cbts, int(time.time())))
+                log.msg('[tslb]: {}; [time]: {}'.format(cbts, now))
                 break
         except:
             log.err('[Error tslb]: {}'.format(traceback.format_exc()))
@@ -121,7 +135,7 @@ def tslb():
     if cbts is None:
         return
 
-    ts_diff = int(datetime.utcnow().strftime('%s')) - cbts
+    ts_diff = now - int(cbts)
     mins, secs = divmod(ts_diff, 60)
     return u'{} min{}, {} sec{}'.\
                 format( mins
@@ -204,6 +218,7 @@ class BlockExplorerAPI(object):
     BLOCK_HASH = 'https://blockexplorer.com/q/getblockhash/{}'
     LAST_BLOCK = 'https://blockexplorer.com/q/getblockcount'
     LAST_HASH = 'https://blockexplorer.com/q/latesthash'
+    TOTAL_BCS = 'https://blockexplorer.com/q/totalbc'
 
     def __init__(self):
         pass
@@ -218,6 +233,9 @@ class BlockExplorerAPI(object):
 
     def latestHash(self):
         return safe_get([self.LASH_HASH], None)
+
+    def totalBCs(self):
+        return safe_get([self.TOTAL_BCS], None)
 
 class BlockrAPI(object):
     AVG_RATE = 'http://btc.blockr.io/api/v1/exchangerate/current'

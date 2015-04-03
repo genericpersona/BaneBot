@@ -264,7 +264,7 @@ class BaneBot(irc.IRCClient):
                   self.moreSend(self.sender if self.pm else channel, response)
             except pb.CommandError, ce:
               self.msg(self.sender if ce.pm else channel,
-                      encode(u'{}'.format(se)))
+                      encode(u'{}'.format(ce)))
             except SyntaxError, se:
               self.msg(self.sender if self.pm else channel, 
                       encode(u'{}'.format(se)))
@@ -333,9 +333,15 @@ class BaneBot(irc.IRCClient):
     def userJoined(self, user, channel):
         '''Called when a user joins a channel.
         '''
+        if not hasattr(self, '_telld'):
+            self._telld = {}
+
         if user in self._telld:
-            src, msg = self._telld[user]
-            self.msg(user, '{} says: {}'.format(src, msg))
+            src, msg, dt = self._telld[user]
+            self.msg(user, '{} said at {} UTC: {}'.format(\
+                            src, 
+                            dt.strftime('%a %b %d %H:%M:%S'), 
+                            msg))
 
             # Update the tell dict
             del self._telld[user] 

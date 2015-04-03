@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import cPickle as pickle
+from datetime import datetime
 import os
 import zlib
 
@@ -55,7 +56,7 @@ class Tell(pb.CommandPlugin):
 
     # Save the nick, sender, and msg to the telld
     nick, msg = args[0], u' '.join(args[1:])
-    irc._telld[nick] = (irc.sender, msg)
+    irc._telld[nick] = (irc.sender, msg, datetime.utcnow())
 
     # Save the telld to disk
     self.saveTellDict(irc)

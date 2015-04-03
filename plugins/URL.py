@@ -6,6 +6,7 @@ import time
 import traceback
 import sys
 
+import bitly_api
 from bs4 import BeautifulSoup
 import pafy
 import requests
@@ -21,6 +22,9 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
 
   def __init__(self, conf):
     super(URL, self).__init__(conf)
+
+    # Create a bitly shortener object
+    self.bitly = bitly_api.Connection(self.bitly_un, self.bitly_api_key)
 
   def commands(self):
     return { 'shorten': self.shorten
@@ -86,27 +90,13 @@ class URL(pb.LinePlugin, pb.CommandPlugin):
 
   def shorten_url(self, url):
     '''Return a shortened version of a URL passed in
-    using Google's URL shortening service.
+    using bitly
     '''
-    headers = {'Content-Type': 'application/json'
-              , 'User-Agent': 'Bane Bot'
-              }
-    data = json.dumps({'longUrl': url})
     try:
-      r = requests.post(self.GOOGLE_SHORTEN, headers=headers, data=data)
+      return self.bitly.shorten(url)['url']
     except:
+      log.err('[Error]: bitly traceback: {}'.format(traceback.format_exc()))
       raise pb.CommandError(u'[Error]: Invalid URL', pm=True)
-
-    if r.status_code != 200:
-      msg = '[Error]: Bot\'s daily limit exceeded'
-      if 'error' in r.json():
-          for error in r.json()['error']['errors']:
-              log.err('[Error URL.shorten_url]: {}'.format(\
-                      error['message']))
-
-      raise pb.CommandError(msg, pm=True)
-    else:
-      return r.json()['id']
 
   def title(self, url):
     '''Return the title of a passed in URL
